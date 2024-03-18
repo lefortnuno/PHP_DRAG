@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+}
+
+.logo{
+    background-color: rgb(22, 133, 96);
+    width: 100px;
+
+}
+.navbar-collapse {
+    position: relative;
+
+}
+
+.form-search{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px !important;
+} 
+
+.navbar {
+    background-color: rgb(245, 245, 245) !important;
+  }
+
+.nav-item{
+    padding: 0 10px;
+}
+.nav-link{
+    transition: 8s;
+    border-radius: 10px;
+}
+.nav-link:hover{
+    background-color: rgb(22, 133, 96);
+    border-radius: 10px;
+    color: white !important;
+    transition: 0.9s;
+}
+
+.cont{
+    margin-top: 10% !important;
+}
+
+.f{
+    margin-top: 10% !important;
+    position: sticky;
+}
+.foot{
+    background-color: rgb(245, 245, 245) !important;
+}
+.foot > p {
+    word-spacing: 50px !important;
+}
+
+.position-absolute > i{
+    font-size: 50px;
+}
+
+.ff{
+    margin: 0;
+    padding: 0 -100%;
+} 
+
+/*------------------------H REF LISTE ----------------------------------*/
+.tt{
+    margin-top: 50px;
+}
+.lien{
+    text-decoration: none;
+    color: rgb(34, 87, 69);
+    width: 100%;
+}
+.divlien:hover{
+    background-color: rgb(26, 73, 58);
+    transition: 1s;
+    width:100%;
+    color: white;
+}
+.divlien:hover >a{
+    color: aliceblue;
+}
+.divlien{
+    display: flex;
+    margin: 30px 0;
+    transition: 1s;
+    justify-content: center;
+    background-color: rgba(45, 118, 58, 0.515);
+    height: 50px;
+    align-items: center;
+    border-radius: 10px;
+}
+@media (max-width: 992px) {
+
+    .navbar-collapse {
+        text-align: center; 
+    }
+    .navbar{
+        z-index: 10;
+    }
+    .form-search { 
+        margin-top: 20px;
+        position: absolute;
+        bottom: calc(100vh - 10vh);
+        width: 400px !important;
+    }
+
+    .ll {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 100%; 
+        margin-bottom: 20px;
+        height: 100vh;
+        z-index: 10;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .nav-link{
+        width: 100% !important;
+        padding: 20px 0 !important;
+    }
+    .nav-link:hover{
+        background-color: black !important;
+        width: 100%;
+    }
+    .navbar-expand-lg{
+        background-color: aqua;
+    }
+    .cont{
+        margin-top: 200px;
+    }
+}

@@ -1,0 +1,29 @@
+.manova li{
+    list-style: none;
+    display: inline-block;
+}
+.lieen{
+    color: white;
+    background-color: rgb(22, 133, 96);
+    text-decoration: none;
+    padding: 20px 60px;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+.lieen:hover{
+    transition: 0.7s;
+    background-color: rgb(12, 79, 57);
+}
+
+@media (max-width:992px){
+    .lieen{
+        padding: 10px 10px;
+    }
+}
+
+@media (max-width:500px){
+    .lieen{
+        padding: 5px 3px;
+    }
+}

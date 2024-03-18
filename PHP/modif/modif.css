@@ -1,0 +1,18 @@
+.divlien-ajouter{
+    background-color: rgb(22, 133, 96);
+}
+.divlien-supprimer{
+    background-color: rgb(192, 52, 52);
+}
+.divlien-supprimer:hover{
+    background-color: rgb(144, 32, 32);
+}
+.divlien-changer{
+    background-color: rgb(48, 96, 164);
+}
+.divlien-changer:hover{
+    background-color: rgb(25, 56, 100);
+}
+.linkk{
+    color: white;
+}
